@@ -1,7 +1,13 @@
-# Edward Ogbighe — MIT 8103
+# Hotel Reservation System
 
-Student ID: 301909975
+Edward Ogbighe · Student ID 301909975
 
-Hotel Reservation System
+The portfolio uses fictional records for Hotel Reservation System.
 
-The portfolio is being generated. Completed stages will appear in the commit history.
+- [Portfolio 1](portfolio-1-database-design/)
+- [Portfolio 2](portfolio-2-query-optimisation/)
+- [Portfolio 3](portfolio-3-transactions-concurrency/)
+- [Portfolio 4](portfolio-4-nosql/)
+- [Portfolio 5](portfolio-5-distributed-cloud/)
+
+[Final summary](Ogbighe_Edward_301909975_FinalSummary.md) · [PDF](Ogbighe_Edward_301909975_FinalSummary.pdf)
