@@ -43,7 +43,7 @@ I proposed three MongoDB replica members across separate failure zones. The disc
 
 ## Individual reflection
 
-I kept guests, rooms, reservations, payments in separate tables so their details could be maintained without repeating them in every related record. For confirmed reservations only, at most one reservation may have the same room_id and check_in. The constraint tests check this alongside the required values and record links. One issue illustrated by the two-session exercise is that both sessions can read the same value before either update is committed. Locking the row before reading preserves both increments. The index comparison also shows why I need to check the execution plan as well as the final answer: the same result can require different amounts of database work.
+I organized guests, rooms, reservations, payments in separate tables so their details could be maintained without repeating them in every related record. For confirmed reservations only, at most one reservation may have the same room_id and check_in. The constraint tests check this alongside the required values and record links. One issue illustrated by the two-session exercise is that both sessions can read the same value before either update is committed. Locking the row before reading preserves both increments. The index comparison also shows why I need to check the execution plan as well as the final answer: Different approaches may produce the same result but require different amounts of processing.
 
 ## AI-use declaration
 
