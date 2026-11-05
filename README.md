@@ -2,6 +2,9 @@
 
 Edward Ogbighe · Student ID 301909975
 
+
+CASE STUDY
+
 The portfolio uses fictional records for Hotel Reservation System.
 
 - [Portfolio 1](portfolio-1-database-design/)
