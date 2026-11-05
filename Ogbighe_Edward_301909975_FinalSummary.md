@@ -4,6 +4,7 @@
 
 https://github.com/edwardogbighe/Ogbighe_Edward_301909975
 
+
 ## Case study
 
 My case study is Hotel Reservation System. I designed the database for front-desk staff manage synthetic guest and reservation records. and managers review room reservations and payment summaries., with separate tables named guests, rooms, reservations and payments. It supports these operations: create a reservation for a guest and room, then commit it if its references and constraints are valid; cancel a reservation by changing its status; roll back the change if it is unintended; separate benchmark plan: generate 20000 synthetic reservations, run the same check-in date-range filter before and after adding a B-tree index, and compare query plans and measured latency without assuming an outcome.
